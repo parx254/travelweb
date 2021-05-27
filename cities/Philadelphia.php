@@ -29,7 +29,6 @@
         <div class="bodycontainer">
             <div class="maintitle">
                 <div class="text-box">
-
                     <h2>POSTS</h2>
                 </div>
             </div>
