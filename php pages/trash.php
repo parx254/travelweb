@@ -61,36 +61,36 @@
             <div class='prof_actions'>
                 <form action="my-profile.php">
                     <button type="submit">
-                        <i class="fas fa-home-alt"></i>
+                        <i class="fad fa-home-alt"></i>
                         <p>Home</p>
                     </button>
                 </form>
                 <form action="inbox.php">
                     <button type="submit" class="highlighted">
-                        <i class="fa fa-inbox"></i>
+                        <i class="fad fa-inbox"></i>
                         <p>Inbox</p>
                     </button>
                 </form>
                 <form action="sent.php">
                     <button type="submit">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fad fa-envelope"></i>
                         <p>Sent</p>
                     </button>
                 </form>
                 <form action="edit-profile.php">
                     <button type="submit">
-                        <i class="fa fa-pencil-square-o"></i>
+                        <i class="fad fa-edit"></i>
                         <p>Edit</p>
                     </button>
                 </form>
                 <form action="control.php" method='POST'>
                     <button type="submit" name='logout'>
-                        <i class="fa fa-sign-out"></i>
+                        <i class="fad fa-sign-out"></i>
                         <p>Logout</p>
                     </button>
                 </form>
                 <button id='changePic'>
-                    <i class='fa fa-picture-o' aria-hidden='true'></i>
+                    <i class='fad fa-image' aria-hidden='true'></i>
                     <p>Edit Photos</p>
                 </button>
             </div>
