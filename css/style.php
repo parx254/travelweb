@@ -1617,6 +1617,30 @@ input:hover[type=submit] {
   transform-origin: 100%;
 }
 
+
+
+.hero-bottom-left {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   margin-right: 2%;
+   width: 100%;
+   text-align: center
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s
+}
+
 .myprofplaces p {
   margin-top: 6px
 }
