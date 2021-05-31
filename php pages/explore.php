@@ -301,44 +301,6 @@
   ?>
 </body>
 <style>
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        color: #000
-    }
-
-    .intro p {
-        color: #2c3643
-    }
-
-    .hero-bottom-left h1 {
-        color: #fff
-    }
-
-    .hero-bottom-left {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        margin-right: 2%;
-        width: 100%;
-        text-align: center
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both
-    }
-
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 2s;
-        animation-name: fade;
-        animation-duration: 2s
-    }
-
     @media screen and (min-width:900px) {
         .cell {
             width: calc(100% / 4)
@@ -355,34 +317,6 @@
         .cell {
             width: calc(100% / 2)
         }
-    }
-
-    .hidden {
-        display: none
-    }
-
-    .fallen {
-        display: none
-    }
-
-    .disco {
-        display: none
-    }
-
-    .img {
-        display: block
-    }
-
-    #globe2 {
-        border-top: 2px solid #000
-    }
-
-    .globe {
-        border-bottom: 2px solid #fff
-    }
-
-    .topslide {
-        background: #1B1B1B !important
     }
 </style>
 <script>
