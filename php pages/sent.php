@@ -107,7 +107,7 @@
             <div class="messages">
                 <div class="maintitle">
                     <div class="text-box">
-                        <h2>SENT MESSAGES</h2>
+                        <h2>SENT</h2>
                     </div>
                 </div>
                 <?php Sent(); ?>
