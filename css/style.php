@@ -1,4 +1,3 @@
-<?php header("Content-type: text/css"); ?>
 *,
 .footer li a,
 h1,
@@ -1393,6 +1392,7 @@ input:hover[type=submit] {
   background: dodgerblue;
   margin: 0 auto;
   margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .prof_new2 input[type=date],
@@ -1532,7 +1532,6 @@ input:hover[type=submit] {
   text-align: center
 }
 
-.bottomprof,
 .myprofplaces {
   display: inline-block;
   width: 100%
@@ -1556,7 +1555,7 @@ input:hover[type=submit] {
   padding: 20px;
   border-radius: 5px;
   background: dodgerblue;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .profpost input[type=text] {
@@ -1603,7 +1602,8 @@ input:hover[type=submit] {
 .myprofposts {
   align-items: center;
   background: #fff;
-  width: 100%
+  margin-top: 20px;
+  width: 100%;
 }
 
 .myprofplaces {
@@ -2223,7 +2223,7 @@ header {
   padding-bottom: 20px;
   width: 100%;
   text-transform: uppercase;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .prof_actions button {
@@ -2307,11 +2307,6 @@ table {
 span {
   display: inline-block;
   vertical-align: middle
-}
-
-.bottomprof {
-  padding-top: 20px;
-  padding-bottom: 20px
 }
 
 .placesvisited {
@@ -3026,12 +3021,7 @@ input:-webkit-autofill {
     width: 120px;
     height: 120px
   }
-  .login,
-  .myprofplaces,
-  .myprofposts {
-    padding-top: 20px;
-    padding-bottom: 20px
-  }
+
   .login {
     width: 90%;
     font-size: 15px;
