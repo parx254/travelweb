@@ -75,7 +75,6 @@
                     <?php otherprofile();?>
                 </div>
             </div>
-            <div class='bottomprof'>
                 <div class="secondtitle">
                     <div class="text-box">
                         <h2>POSTS</h2>
@@ -87,7 +86,6 @@
                 <div class='myprofvideoposts'>
                     <?php allOtherVideoPosts(); ?>
                 </div>
-            </div>
         </div>
         <div class='myprofplaces'>
             <div class="bodycontainer">
