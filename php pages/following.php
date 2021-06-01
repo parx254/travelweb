@@ -84,8 +84,14 @@
         nav #menu li a,
         nav #menu li.select,
         .dropbtn {
-            color: #000;
+            color: #000
         }
+    }
+
+    nav #menu li.active,
+    nav #menu li.active:hover,
+    nav #menu li:hover {
+        border-bottom: 2px solid #000
     }
 </style>
 
