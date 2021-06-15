@@ -48,7 +48,7 @@
       </div>
       <div class='footer-about'>
           <div class='copyright'>
-              &copy; Social Destinations 2021, Inc. All rights reserved · <a href='privacy-policy.php'>Privacy</a>
+              &copy; Social Destinations 2021, Inc. All rights reserved 路 <a href='privacy-policy.php'>Privacy</a>
           </div>
           <ul class='about-list'>
               <li>
@@ -112,6 +112,3 @@
           </div>
       </div>
   </footer>
-  </body>
-
-  </html>
