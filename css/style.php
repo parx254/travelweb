@@ -1389,7 +1389,7 @@ input:hover[type=submit] {
 .profile {
   display: table;
   border-radius: 5px;
-  background: dodgerblue;
+  background: #010101;
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -1440,7 +1440,7 @@ input:hover[type=submit] {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  margin: -102px auto 1px;
+  margin: -102px auto -20px;
 }
 
 .myfollowees,
@@ -1514,8 +1514,8 @@ input:hover[type=submit] {
 .city,
 .bio {
   display: inline-block;
-  margin-top: 6px;
-  text-align: left
+  margin-top: 8px;
+  text-align: left;
 }
 
 .prof_section {
@@ -1554,7 +1554,7 @@ input:hover[type=submit] {
   display: inline-block;
   padding: 20px;
   border-radius: 5px;
-  background: dodgerblue;
+  background: #010101;
   margin-bottom: 20px;
 }
 
@@ -2494,7 +2494,7 @@ textarea:focus {
   padding: 40px 0px;
   overflow: visible;
   transform-origin: 100%;
-  background: #1B1B1B;
+  background: #010101;
 }
 
 .profile button {
@@ -3218,7 +3218,7 @@ select:hover {
 }
 
 table {
-  background: dodgerblue;
+  background: #010101;
   border-radius: 5px;
   color: #fff;
   padding: 5px;
@@ -3358,6 +3358,11 @@ nav #menu li a .tooltip:before {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.profile .text-box h2, .intro2 .text-box h2{
+  background: white;
+  color:#000;
 }
 
 .text-box h2,
